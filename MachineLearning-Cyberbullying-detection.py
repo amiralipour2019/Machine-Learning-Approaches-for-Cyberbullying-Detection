@@ -54,9 +54,9 @@ def openTextasList(filename):
       lines.append(line)
   return(lines)
 
-ethnicity=openTextasList("/content/drive/MyDrive/Projects-DataFolder/Cyberbullying/8000ethnicity.txt")
-religion=openTextasList("/content/drive/MyDrive/Projects-DataFolder/Cyberbullying/8000religion.txt")
-notcb=openTextasList("/content/drive/MyDrive/Projects-DataFolder/Cyberbullying/8000notcb.txt")
+ethnicity=openTextasList("/content/8000ethnicity.txt")
+religion=openTextasList("/content/8000religion.txt")
+notcb=openTextasList("/content/8000notcb.txt")
 alldoc=notcb + ethnicity + religion
 print("there are %d ethencity twittes\n %s " % (len(ethnicity),ethnicity[0:5]))
 print("there are %d religion twittes\n %s " % (len(religion),religion[0:5]))
